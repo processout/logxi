@@ -221,7 +221,7 @@ func tasks(p *do.Project) {
 			"github.com/stretchr/testify/assert",
 
 			// needed for benchmarks in bench/
-			"github.com/Sirupsen/logrus",
+			"github.com/sirupsen/logrus",
 			"gopkg.in/inconshreveable/log15.v2",
 		}
 		for _, pkg := range packages {
