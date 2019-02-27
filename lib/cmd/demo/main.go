@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/processout/logxi/v1"
+	"github.com/processout/logxi/lib"
 )
 
 var errConfig = fmt.Errorf("file not found")
